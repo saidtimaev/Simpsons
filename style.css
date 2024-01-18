@@ -1,13 +1,140 @@
 * {
 
-    margin: 5;
+    margin: 0;
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
 
 }
-
+/* ---------------------------------------------BODY ----------------------------------- */
 #wrapper {
 
-    color: yellow;
+    background-color: yellow;
+    padding-right: 300px;
+    padding-left: 300px;
+
+}
+
+
+
+/* ---------------------------------------------HEADER ----------------------------------- */
+
+
+header{
+    
+}
+
+header p{
+
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: rgb(68, 68, 255);
+    text-align: center; 
+}
+
+header img{
+
+    width: 100%;
+
+}
+/* ---------------------------------------------MAIN ----------------------------------- */
+
+
+
+
+main{
+
+    display: flex;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+/* ---------------------------------------------ARTICLE ----------------------------------- */
+
+article{
+
+    padding: 10px;
+
+}
+
+article h1{
+
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(255, 196, 0);
+
+
+
+}
+
+
+
+/* ---------------------------------------------NAV ----------------------------------- */
+
+
+nav ul{
+
+    background-color: rgb(73, 136, 187);
+    padding: 10px;
+    text-align: center; 
+    list-style-type: none;
+
+}
+
+nav a{
+
+    color: white;
+
+
+}
+
+/* ---------------------------------------------ASIDE ----------------------------------- */
+
+
+aside figure {
+
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+
+}
+		
+aside img {
+
+	width:200px;
+
+}		
+		
+aside {
+
+	padding:5px;
+    background-color: rgb(73, 136, 187);
+}
+
+/* ---------------------------------------------FOOTER ----------------------------------- */
+
+footer{
+
+    background-color: rgb(21, 21, 95);
+
+
+
+}
+
+footer small{
+
+    display: block;
+    padding: 5px;
+    color: white;
+    text-align: center; 
+
+
+
 }
