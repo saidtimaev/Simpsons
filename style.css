@@ -8,11 +8,19 @@
 
 }
 /* ---------------------------------------------BODY ----------------------------------- */
+body {
+    background-color: rgb(255, 174, 0);
+    display: flex;
+    justify-content: center;
+    
+
+}
+
 #wrapper {
 
-    background-color: rgb(255, 174, 0);
-    padding-right: 360px;
-    padding-left: 360px;
+    /* padding-right: 360px;
+    padding-left: 360px; */
+    width: 80%;
 
 }
 
@@ -21,9 +29,6 @@
 /* ---------------------------------------------HEADER ----------------------------------- */
 
 
-header{
-    
-}
 
 header p{
 
@@ -88,11 +93,6 @@ article h1{
 
 /* ---------------------------------------------NAV ----------------------------------- */
 
-nav {
-
-
-
-}
 
 nav ul{
 
@@ -188,3 +188,61 @@ footer small{
 
 
 }
+
+
+@media only screen and (max-width: 600px) {
+
+    #wrapper{
+
+        width: 100%;
+        background-color: none;
+    
+    
+    
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* nav {
+
+        width: 100%;
+        display: block;
+        
+
+    }
+
+    nav li{
+
+        width: 100%;
+        text-align: center; 
+    } */
+
+    nav { 
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    ul,
+    ul li {
+        width: 100%;
+    }
+
+    nav li{
+
+        padding: 10px;
+    
+    
+    }
+
+    aside img{
+
+        width: 50%;
+
+
+    }
+
+  }
